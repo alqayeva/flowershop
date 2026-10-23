@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Flowershop</title>
+</head>
+<body>
+    <h1>FlowerShop</h1>
+    <p>Add, search for, and delete products.</p>
+
+    <form class="forms" id="addForm">
+<input name="name" placeholder="Product name" required>
+<input name="price" placeholder="Product price" type="number" min="0" step="any" required>
+<input name="category" placeholder="Product category" required>
+<button name="submit">Submit</button>
+
+    </form>
+
+<div class="filters">
+  <input id="search" type="search" placeholder="Search by name">
+
+  <select id="category">
+    <option value="">All categories</option>
+  </select>
+
+  <select id="sort">
+    <option value="">No sorting</option>
+    <option value="price_asc">Price: Low to High</option>
+    <option value="price_desc">Price: High to Low</option>
+  </select>
+</div>
+<div id="msg" role="status"></div>
+<ul id="list"></ul>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>

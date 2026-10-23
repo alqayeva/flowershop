@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Red Rose",
+    "price": 5,
+    "category": "Roses"
+  },
+  {
+    "id": 2,
+    "name": "White Lily",
+    "price": 8,
+    "category": "Lilies"
+  },
+  {
+    "id": 3,
+    "name": "Pink Tulip",
+    "price": 4,
+    "category": "Tulips"
+  },
+  {
+    "id": 4,
+    "name": "White Lily",
+    "price": 6,
+    "category": "Lilies"
+  },
+  {
+    "id": 5,
+    "name": "Yellow Tulip",
+    "price": 4,
+    "category": "Tulips"
+  },
+  {
+    "id": 6,
+    "name": "Pink Tulip",
+    "price": 4,
+    "category": "Tulips"
+  },
+  {
+    "id": 7,
+    "name": "Red Tulip",
+    "price": 5,
+    "category": "Tulips"
+  },
+  {
+    "id": 8,
+    "name": "Yellow Tulip",
+    "price": 6,
+    "category": "Tulips"
+  },
+  {
+    "id": 9,
+    "name": "White Daisy",
+    "price": 3,
+    "category": "Daisies"
+  },
+  {
+    "id": 10,
+    "name": "Pink Lily",
+    "price": 9,
+    "category": "Lilies"
+  },
+  {
+    "id": 11,
+    "name": "red",
+    "price": 5,
+    "category": "roses"
+  }
+]
